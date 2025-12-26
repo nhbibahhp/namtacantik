@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pertemuan 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="materi-page">
+
+<header class="page-title materi-header">
+    <h1>PERTEMUAN 3</h1>
+    <p>Komponen Sistem Operasi</p>
+</header>
+
+<main class="content">
+
+    <img src="../assets/img/img_p3.1.png" alt="Komponen Sistem Operasi" class="materi-img">
+
+    <p>
+        Sistem Operasi memiliki berbagai komponen untuk menjalankan tugas-tugas
+        yang telah ditentukan. Meskipun sebagian besar sistem operasi berbeda
+        dalam struktur, secara logis mereka memiliki komponen yang serupa.
+        Setiap komponen merupakan bagian sistem yang terdefinisi dengan baik
+        untuk menggambarkan fungsi, input, dan output.
+    </p>
+
+    <p>
+        Sistem Operasi terdiri dari beberapa komponen utama sebagai berikut :
+    </p>
+
+    <ol class="materi-list">
+        <li>
+            <strong>Manajemen Proses</strong>
+            <p>
+                Bertugas mengatur pembuatan, penjadwalan, eksekusi, dan
+                penghentian proses agar sistem dapat berjalan secara efisien.
+            </p>
+        </li>
+
+        <li>
+            <strong>Manajemen Perangkat Input/Output</strong>
+            <p>
+                Mengelola komunikasi antara sistem operasi dengan perangkat
+                input dan output seperti keyboard, mouse, dan printer.
+            </p>
+        </li>
+
+        <li>
+            <strong>Manajemen File</strong>
+            <p>
+                Mengatur penyimpanan, pengelompokan, pengaksesan, serta
+                pengamanan file pada media penyimpanan.
+            </p>
+        </li>
+
+        <li>
+            <strong>Manajemen Jaringan</strong>
+            <p>
+                Mengatur pertukaran data dan komunikasi antar komputer
+                dalam sebuah jaringan.
+            </p>
+        </li>
+
+        <li>
+            <strong>Manajemen Memori Utama</strong>
+            <p>
+                Mengelola penggunaan memori utama (RAM) agar dapat digunakan
+                secara optimal oleh proses yang berjalan.
+            </p>
+        </li>
+
+        <li>
+            <strong>Manajemen Penyimpanan Sekunder</strong>
+            <p>
+                Mengatur media penyimpanan sekunder seperti hard disk dan
+                solid state drive (SSD).
+            </p>
+        </li>
+
+        <li>
+            <strong>Manajemen Keamanan</strong>
+            <p>
+                Bertugas melindungi sistem dari akses tidak sah dan menjaga
+                keamanan data serta sumber daya sistem.
+            </p>
+        </li>
+
+        <li>
+            <strong>Sistem Penerjemah Perintah</strong>
+            <p>
+                Menerjemahkan perintah pengguna agar dapat dipahami dan
+                dijalankan oleh sistem operasi.
+            </p>
+        </li>
+    </ol>
+
+    <a class="back" href="#" onclick="konfirmasiKeluar()">
+        ← Kembali ke Daftar Pertemuan
+    </a>
+
+</main>
+
+<script src="../assets/js/script.js"></script>
+
+<div id="exitModal" class="modal-overlay">
+    <div class="modal-box">
+        <h3 class="modal-title">Konfirmasi Keluar</h3>
+        <p id="modalText" class="modal-text"></p>
+
+        <div class="modal-actions">
+            <button class="btn-cancel" onclick="batalKeluar()">Batal</button>
+            <button class="btn-exit" onclick="keluarMateri()">Keluar</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

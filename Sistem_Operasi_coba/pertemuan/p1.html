@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pertemuan 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="materi-page">
+
+<header class="page-title materi-header">
+    <h1>PERTEMUAN 1</h1>
+    <p>Pengantar Sistem Operasi</p>
+</header>
+
+<main class="content">
+
+    <img src="../assets/img/img_p1.1.jpg" alt="Ilustrasi Sistem Operasi" class="materi-img">
+
+    <p>
+        Sistem operasi merupakan perangkat lunak inti (core software) yang
+        berperan sebagai penghubung antara perangkat keras (hardware) dengan
+        pengguna maupun aplikasi. Sistem operasi memungkinkan pengguna
+        berinteraksi dengan komputer tanpa harus memahami cara kerja perangkat
+        keras secara langsung. Tanpa adanya sistem operasi, komputer tidak akan mampu menjalankan
+        program aplikasi, mengelola sumber daya, maupun memberikan antarmuka
+        yang mudah digunakan. Oleh karena itu, sistem operasi menjadi komponen
+        yang sangat penting dalam sebuah sistem komputer modern.
+    </p>
+
+    <p>
+        Secara umum, sistem operasi memiliki tujuan utama untuk menciptakan
+        lingkungan kerja yang nyaman, efisien, dan aman bagi pengguna.
+        Sistem operasi memastikan bahwa setiap aplikasi yang berjalan dapat
+        menggunakan sumber daya komputer secara teratur tanpa saling
+        mengganggu satu sama lain. Fungsi utama sistem operasi meliputi manajemen proses, manajemen
+        memori, manajemen penyimpanan, manajemen perangkat input dan output,
+        serta penyediaan sistem keamanan. Semua fungsi tersebut bekerja secara
+        terintegrasi agar sistem komputer dapat beroperasi dengan optimal.
+    </p>
+
+    <p>
+        Dalam manajemen proses, sistem operasi bertugas mengatur eksekusi
+        program yang sedang berjalan, termasuk penjadwalan CPU dan pengelolaan
+        status proses. Hal ini penting agar beberapa aplikasi dapat berjalan
+        secara bersamaan tanpa menyebabkan konflik atau penurunan kinerja. Manajemen memori dilakukan untuk mengatur penggunaan RAM oleh berbagai
+        program yang aktif. Sistem operasi memastikan bahwa setiap aplikasi
+        mendapatkan ruang memori yang cukup serta mencegah terjadinya
+        penggunaan memori secara berlebihan yang dapat menyebabkan sistem
+        menjadi lambat atau crash.
+    </p>
+
+    <p>
+        Selain itu, sistem operasi juga mengatur media penyimpanan seperti hard
+        disk atau SSD. Sistem berkas (file system) digunakan untuk menyimpan,
+        mengorganisasi, dan mengakses data secara terstruktur sehingga mudah
+        digunakan oleh pengguna maupun aplikasi. Contoh sistem operasi yang banyak digunakan saat ini antara lain
+        Microsoft Windows, Linux, macOS, Android, dan iOS. Setiap sistem
+        operasi memiliki karakteristik, kelebihan, serta kekurangan yang
+        disesuaikan dengan kebutuhan pengguna dan jenis perangkat yang
+        digunakan.
+    </p>
+
+    <p>
+        Melalui pertemuan ini, mahasiswa diharapkan dapat memahami konsep dasar
+        sistem operasi, mengenali peran pentingnya dalam sistem komputer, serta
+        memiliki gambaran awal mengenai materi-materi lanjutan yang akan
+        dipelajari pada pertemuan berikutnya.
+    </p>
+
+    <a class="back" href="#" onclick="konfirmasiKeluar()">
+        ← Kembali ke Daftar Pertemuan
+    </a>
+
+</main>
+
+<script src="../assets/js/script.js"></script>
+
+<div id="exitModal" class="modal-overlay">
+    <div class="modal-box">
+        <h3 class="modal-title">Konfirmasi Keluar</h3>
+        <p id="modalText" class="modal-text">
+            <!-- teks otomatis dari JS -->
+        </p>
+
+        <div class="modal-actions">
+            <button class="btn-cancel" onclick="batalKeluar()">Batal</button>
+            <button class="btn-exit" onclick="keluarMateri()">Keluar</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
